@@ -1,0 +1,186 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    color: #FF6347;
+}
+
+nav a:active {
+    transform: scale(0.95);
+}
+
+main {
+    padding: 20px;
+}
+
+.book-card {
+    border: 1px solid #666;
+    background-color: #333;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+button.read-button {
+    background-color: #FF6347;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button.read-button:hover {
+    background-color: #333;
+}
+
+button.read-button:active {
+    transform: scale(0.95);
+}
+
+/* Estilização dos Títulos e Textos */
+.book-title {
+    font-size: 24px;
+    color: #FF6347;
+}
+
+.book-author {
+    font-style: italic;
+}
+
+/* Efeitos de Hover nos Cartões de Livros */
+.book-card {
+    transition: transform 0.3s;
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+}
+
+/* Botões de Compartilhamento */
+.share-buttons {
+    margin-top: 10px;
+}
+
+.share-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Elementos Gráficos de Terror */
+.pumpkin-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url('pumpkin.png');
+    background-size: cover;
+}
+
+.spider-web {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('spider-web.png');
+    background-size: cover;
+    opacity: 0.1;
+}
+
+/* Página de Detalhes do Livro */
+.book-details {
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+
+/* Galeria de Imagens dos Livros */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Classificações de Terror */
+.ratings {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.rating {
+    margin-right: 20px;
+}
+
+.rating img {
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+/* Comentários dos Leitores */
+.comments {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.comments textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.comments button {
+    background-color: #FF6347;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
